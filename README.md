@@ -10,7 +10,7 @@ You can build the Docker image yourself using the following commands:
     cd texlive-docker
     docker build -t tex .
 
-After that, you can start a TexLive Docker container. The Latex source files should be mounted to /doc and the output is also written to that directory. Please provide a Makefile in /doc to tell the container what to do. An example can be found in the /exaple directory
+After that, you can start a TexLive Docker container. The Latex source files should be mounted to /doc and the output is also written to that directory. Please provide a makefile in /doc to tell the container what to do. An example can be found in the /exaple directory
 
     docker run -v "/example":"/doc" tex
 
