@@ -6,7 +6,7 @@ You can use this to compile your Latex Documents.
 
 You can build the Docker image yourself using the following commands:
 
-    git clone 
+    git clone https://github.com/jonasber/texlive-docker.git
     cd texlive-docker
     docker build -t tex .
 
